@@ -13,7 +13,7 @@ export default function MyHeader() {
                     <a href="#projects">Proyectos</a>
                 </Menu.Item>
                 <Menu.Item key="3">
-                    <a href="#">Something</a>
+                    <a href="#about">Conoce más</a>
                 </Menu.Item>
             </Menu>
         </Layout.Header>

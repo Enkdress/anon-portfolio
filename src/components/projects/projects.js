@@ -44,7 +44,7 @@ export default function Projects() {
 				/>
 			</div>
 
-			<DownButton nextSection="#" type="primary"/>
+			<DownButton nextSection="#about" type="primary"/>
 		</div>
 	);
 }
