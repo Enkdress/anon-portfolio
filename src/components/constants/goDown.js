@@ -2,10 +2,10 @@ import React from 'react';
 import { Button } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 
-export default function DownButton({nextSection}) {
+export default function DownButton({nextSection, type}) {
 	return (
 		<div>
-			<Button href={nextSection} className="btn" style={btnStyles} type="ghost" size="large" shape="circle">
+			<Button href={nextSection} className="btn" style={btnStyles} type={type} size="large" shape="circle">
 				<DownOutlined />
 			</Button>
 

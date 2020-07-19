@@ -1,7 +1,21 @@
 .projects-section {
     height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
 .projects-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     padding: 100px 0;
+}
+
+.cards {
+    margin: 10vh auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

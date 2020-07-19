@@ -2,3 +2,12 @@
     padding: 0 50px;
     margin-top: 64px;
 }
+
+.section-header {
+    text-align: center;
+}
+
+.section-header h1 {
+    font-size: 3em;
+    margin: 0;
+}

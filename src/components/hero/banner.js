@@ -13,7 +13,7 @@ export default function Banner() {
 				</p>
 			</div>
 			<img src="./hero-image.jpg" alt="banner" />
-			<DownButton nextSection="#projects" />
+			<DownButton nextSection="#projects" type="ghost" />
 		</div>
 	);
 }

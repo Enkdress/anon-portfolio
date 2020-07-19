@@ -3,6 +3,6 @@ import { Layout } from 'antd'
 
 export default function MyFooter() {
     return (
-        <Layout.Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Layout.Footer>
+        <Layout.Footer style={{ textAlign: 'center' }}>Sergio Correa ©2020</Layout.Footer>
     )
 }

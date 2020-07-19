@@ -12,7 +12,7 @@ function App() {
 			<section id="home" className="hero-section">
 				<Banner />
 			</section>
-
+				
 			<section id="projects" className="projects-section container">
 				<Projects />
 			</section>
