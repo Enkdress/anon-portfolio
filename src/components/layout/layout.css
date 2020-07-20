@@ -1,11 +1,32 @@
 .logo {
-    font-family: 'Montserrat', sans-serif;
-    color: #FFF;
-    margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	margin: 0;
 }
 
 .ant-layout-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.small-header {
+	display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+	.large-header {
+		display: none;
+	}
+
+	.small-header {
+		display: initial !important;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.ant-layout-header {
+		font-size: .5em;
+		padding: 20px !important;
+	}
 }

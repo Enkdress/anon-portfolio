@@ -11,3 +11,13 @@
     font-size: 3em;
     margin: 0;
 }
+
+@media screen and (max-width: 425px) {
+    .section-header h1 {
+        line-height: 1.2;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}

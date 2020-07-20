@@ -4,7 +4,7 @@ import DownButton from '../constants/goDown';
 
 export default function Banner() {
 	return (
-		<div>
+		<>
 			<div className="hero-info">
 				<h1>Bienvenidos a nuestra página</h1>
 				<p>
@@ -12,8 +12,15 @@ export default function Banner() {
 					<a href="/">Contáctanos para más información</a>
 				</p>
 			</div>
-			<img src="./hero-image.jpg" alt="banner" />
+			{/* <img src="./hero-image.jpg" alt="banner" /> */}
 			<DownButton nextSection="#projects" type="ghost" />
-		</div>
+
+			<style jsx>{`
+				.hero-section {
+					background-image: url("./hero-image.jpg");
+					background-position: center;
+				}
+			`}</style>
+		</>
 	);
 }
